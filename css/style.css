@@ -1,5 +1,9 @@
+.container{
+    padding: 2%;
+}
 .container-80{
-    padding-left: 5%;
+    background-color: #F6F8F9;
+    padding: 5% ;
     margin: 5%;
     border: 1px solid black;
 }
@@ -11,6 +15,9 @@
     font-size: 60px;
     font-weight: bolder;
 }
+.button-class{
+    padding: 30px;
+}
 .button{
     border-radius: 6px;
     border: none;
@@ -19,6 +26,7 @@
     font-weight: bold;
     width: 70px;   
     vertical-align: middle;
+    
 
 }
 .button.blue{
@@ -52,4 +60,9 @@
     color: #fff;
     text-align: center;
 
+}
+.starting-card{
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-weight: 800;
 }
