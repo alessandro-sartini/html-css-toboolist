@@ -1,0 +1,35 @@
+.container-80{
+    padding-left: 5%;
+    margin: 5%;
+    border: 1px solid black;
+}
+.text-vertical-logo,
+#logo{
+    vertical-align: middle;
+}
+.text-vertical-logo{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.button{
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+    margin: 2px;
+    font-weight: bold;
+    width: 70px;   
+    vertical-align: middle;
+
+}
+.button.blue{
+    background-color: #4CADEF;
+    color: #fff;
+    
+}
+.button.grey{
+    color: lightgray;
+
+}
+.green-check{
+    
+}
