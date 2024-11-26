@@ -31,5 +31,25 @@
 
 }
 .green-check{
-    
+    color: green;
+}
+.circle-v{
+    height: 20px;
+    aspect-ratio: 1;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid green;
+}
+.toDo{
+    display: inline;
+}
+.side-circle{
+    display: inline-block;
+    height: 25px;
+    width: 80px;
+    background-color: #4CADEF;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+
 }
