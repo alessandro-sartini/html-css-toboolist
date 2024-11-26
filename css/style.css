@@ -1,12 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Geist+Mono:wght@100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 .container{
+    background-color: #F6F8F9; 
     padding: 2%;
+}
+main{
+    background-color: #F6F8F9; 
 }
 .container-80{
     background-color: #F6F8F9;
     padding: 5% ;
     margin: 5%;
     margin-top: 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .text-vertical-logo,
 #logo{
@@ -38,20 +52,31 @@
     color: lightgray;
 
 }
-.task{
+.task-schedule{
     margin-top: 20px;
 }
-.green-check{
+.row{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.circle{
+   height: 20px;
+   aspect-ratio: 1;
+   display: inline-block;
+   border-radius: 50%; 
+}
+ .circle.green-check{
+    border: 1px solid green;
     color: green;
 }
-.circle-v{
-    height: 20px;
-    aspect-ratio: 1;
-    display: inline-block;
-    border-radius: 50%;
-    border: 1px solid green;
-}
+ .circle.red-uncheck{
+    border: 1px solid red;
+    color: red;
+ }
+   
 .toDo{
+    word-spacing: 2px;
     display: inline;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -79,6 +104,18 @@
 .side-circle.orange{
     background-color:#F09C3F;
 }
+.side-circle.light-green{
+    background-color: #B1C938;
+
+
+}
+.side-circle.pink{
+    background-color: #D761A0;
+}
+.side-circle.none{
+    display: none;
+}
+
 .starting-card{
     font-size: 20px;
     padding-bottom: 15px;
