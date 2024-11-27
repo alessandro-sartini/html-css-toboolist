@@ -55,7 +55,9 @@ body, .container{
 }
 .task-schedule{
     margin-top: 20px;
+    word-spacing: 2px;
 }
+
 .row{
     margin-top: 5px;
     margin-bottom: 5px;
@@ -68,6 +70,7 @@ body, .container{
    border-radius: 50%; 
    vertical-align: middle;
    text-align: center;
+   font-size: 12px;
 }
  .circle.green-check{
     border: 1px solid green;
@@ -88,10 +91,12 @@ body, .container{
     vertical-align: middle;
 }
 .side-circle{
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
     display: inline-block;
     color: #fff;
+    font-size: 12px;
+    font-weight: bold;
 
 }
 
