@@ -5,15 +5,14 @@
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
+  
   }
   
-body{
+body, .container{
     background-color: #E9E9E9;
 }
-.container{
-    background-color: #F6F8F9; 
+.container{ 
     padding: 2%;
-    background-color: #E9E9E9;
 }
 
 .container-80{
@@ -22,8 +21,6 @@ body{
     margin: 5%;
     margin-top: 0;
     border-radius: 30px;
-    
-    /* border: 1px solid black; */
 }
 .text-vertical-logo,
 #logo{
@@ -70,14 +67,17 @@ body{
    display: inline-block;
    border-radius: 50%; 
    vertical-align: middle;
+   text-align: center;
 }
  .circle.green-check{
     border: 1px solid green;
     color: green;
+   
 }
  .circle.red-uncheck{
     border: 1px solid red;
     color: red;
+    
  }
    
 .toDo{
@@ -88,34 +88,31 @@ body{
     vertical-align: middle;
 }
 .side-circle{
+    border-radius: 5px;
+    padding: 5px;
     display: inline-block;
-    height: 25px;
-    width: 80px;
-    vertical-align: middle;
-    border-radius: 10px;
     color: #fff;
-    text-align: center;
 
 }
 
-.side-circle.blue{
+.side-circle.Editorial{
     background-color: #4CADEF;
 }
-.side-circle.green{
+.side-circle.recruiting{
     background-color:#68C0A9;
 }
-.side-circle.purple{
+.side-circle.Q1Goals{
     background-color:#9B72E1;
 }
-.side-circle.orange{
+.side-circle.mobile{
     background-color:#F09C3F;
 }
-.side-circle.light-green{
+.side-circle.sales{
     background-color: #B1C938;
 
 
 }
-.side-circle.pink{
+.side-circle.website{
     background-color: #D761A0;
 }
 .side-circle.none{
